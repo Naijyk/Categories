@@ -1,0 +1,18 @@
+.product_card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    border: 3px solid darkgray;
+    padding: 50px;
+    width: 600px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product_card img {
+    width: 200px;
+    object-fit: contain;
+}
